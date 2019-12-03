@@ -25,7 +25,7 @@ class PieChart extends Component{
           options={{
             title:{
               display:this.props.displayTitle,
-              text:'User Tags Composition'+this.props.location,
+              text:'Language Tags Composition'+this.props.location,
               fontSize:25
             },
             legend:{

@@ -13,7 +13,7 @@ class BarChart extends Component{
     displayTitle:true,
     displayLegend: true,
     legendPosition:'right',
-    location:'Tags'
+    location:'Tags',
   }
 
   render(){
@@ -25,8 +25,8 @@ class BarChart extends Component{
           options={{
             title:{
               display:this.props.displayTitle,
-              text:'Language Tags composition '+this.props.location,
-              fontSize:25
+              text:'Language Tags composition '+ this.props.location,
+              fontSize:25,
             },
             legend:{
               display:this.props.displayLegend,
